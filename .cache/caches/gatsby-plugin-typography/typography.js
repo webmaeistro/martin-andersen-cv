@@ -1,0 +1,1 @@
+module.exports = require("/home/martin/martin-andersen-cv/www/node_modules/gatsby-theme-banshorian/src/utils/typography")

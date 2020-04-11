@@ -1,12 +1,12 @@
 var plugins = [{
       plugin: require('/home/martin/martin-andersen-cv/www/node_modules/gatsby-plugin-typography/gatsby-ssr'),
-      options: {"plugins":[],"pathToConfigModule":"/home/martin/martin-andersen-cv/www/node_modules/@christiandavid/gatsby-theme-byfolio/src/utils/typography"},
+      options: {"plugins":[],"pathToConfigModule":"/home/martin/martin-andersen-cv/www/node_modules/gatsby-theme-banshorian/src/utils/typography"},
     },{
       plugin: require('/home/martin/martin-andersen-cv/www/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"CV - Martin Andersen webmaeistro","short_name":"MA","description":"This cool App contains information about my work experience as a software developer.","lang":"en","start_url":"/","background_color":"#000","theme_color":"#fff","display":"standalone","icon":"src/images/icon.png"},
     },{
       plugin: require('/home/martin/martin-andersen-cv/www/node_modules/gatsby-plugin-transition-link/gatsby-ssr'),
-      options: {"plugins":[],"layout":"/home/martin/martin-andersen-cv/www/node_modules/@christiandavid/gatsby-theme-byfolio/src/layout/index.js"},
+      options: {"plugins":[],"layout":"/home/martin/martin-andersen-cv/www/node_modules/gatsby-theme-banshorian/src/layout/index.js"},
     },{
       plugin: require('/home/martin/martin-andersen-cv/www/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},

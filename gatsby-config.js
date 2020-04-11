@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     {
-      resolve: `@christiandavid/gatsby-theme-byfolio`,
+      resolve: `gatsby-theme-banshorian`,
       options: {
         basePath: ``,
         path: `src/`,
