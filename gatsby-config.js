@@ -22,7 +22,7 @@ module.exports = {
             name: `experience`,
             title: `Experience`,
             color: `#3a3d98`,
-            link: ``,
+            link: `experience`,
           },
           { name: `skills`, title: `Skills`, color: `#d52d43`, link: `skills` },
           { name: `aboutMe`, title: `About Me`, color: `#fff`, link: `about` },
