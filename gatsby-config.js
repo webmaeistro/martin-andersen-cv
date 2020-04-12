@@ -40,7 +40,7 @@ module.exports = {
           availableToHire: true,
           dotColors: ["#0e3e1e", "#6CC551"],
           h1Text: `Hi!, I'm Martin Andersen`,
-          h2Text: `I'm a DevOps developer, who loves to make threejs + p5js WEBGL 3D animations. I have
+          h2Text: `I'm a DevOps developer based out of Horten, Norway, who loves to make threejs + p5js WEBGL 3D animations. I have
               worked as a software developer since 2011.`,
           typewriter: [
             `Coding is my passion 😎`,
