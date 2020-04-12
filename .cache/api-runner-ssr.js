@@ -18,7 +18,7 @@ var plugins = [{
       options: {"plugins":[],"exclude":["/experience/_additionalSkills"]},
     },{
       plugin: require('/home/martin/martin-andersen-cv/www/node_modules/gatsby-plugin-google-gtag/gatsby-ssr'),
-      options: {"plugins":[],"trackingIds":["UA-"],"gtagConfig":{"anonymize_ip":true,"cookie_expires":0,"send_page_view":true,"cookie_name":"martin-andersen-cv.now.sh"},"pluginConfig":{"head":false,"respectDNT":false}},
+      options: {"plugins":[],"trackingIds":["*"],"gtagConfig":{"anonymize_ip":true,"cookie_expires":0,"send_page_view":true,"cookie_name":"martin-andersen-cv.*.*"},"pluginConfig":{"head":false,"respectDNT":true}},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

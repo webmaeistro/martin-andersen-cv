@@ -15,5 +15,5 @@ module.exports = [{
       options: {"plugins":[],"showSpinner":false},
     },{
       plugin: require('../node_modules/gatsby-plugin-google-gtag/gatsby-browser.js'),
-      options: {"plugins":[],"trackingIds":["UA-"],"gtagConfig":{"anonymize_ip":true,"cookie_expires":0,"send_page_view":true,"cookie_name":"martin-andersen-cv.now.sh"},"pluginConfig":{"head":false,"respectDNT":false}},
+      options: {"plugins":[],"trackingIds":["*"],"gtagConfig":{"anonymize_ip":true,"cookie_expires":0,"send_page_view":true,"cookie_name":"martin-andersen-cv.*.*"},"pluginConfig":{"head":false,"respectDNT":true}},
     }]

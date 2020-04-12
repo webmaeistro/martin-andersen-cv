@@ -75,7 +75,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          `UA-`, // Google Analytics / GA
+          `*`, // Google Analytics / GA
         ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
@@ -83,14 +83,14 @@ module.exports = {
           anonymize_ip: true,
           cookie_expires: 0,
           send_page_view: true,
-          cookie_name: `martin-andersen-cv.now.sh`,
+          cookie_name: `martin-andersen-cv.*.*`,
         },
         // This object is used for configuration specific to this plugin
         pluginConfig: {
           // Puts tracking script in the head instead of the body
           head: false,
           // Setting this parameter is also optional
-          respectDNT: false,
+          respectDNT: true,
         },
       },
     },
