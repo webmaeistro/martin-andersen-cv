@@ -1,15 +1,16 @@
 {
   "name": "gatsby-theme-banshorian",
-  "description": "A simplified way to create a portfolio using GatsbyJS. Based on banshorian",
+  "description": "A simplified way to create a portfolio using GatsbyJS. Based on byfolio",
   "author": "Martin Andersen <marander@pm.me",
   "main": "index.js",
-  "version": "1.1.1",
+  "private": false,
+  "version": "1.2.2",
   "license": "MIT",
   "keywords": [
     "gatsby",
     "gatsby-theme",
     "gatsby-plugin",
-    "banshorian"
+    "cv"
   ],
   "scripts": {
     "clean": "gatsby clean",
