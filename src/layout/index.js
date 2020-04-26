@@ -54,7 +54,7 @@ export default ({ children }) => {
         <div className="copy">
           <a
             href="https://twitter.com/webmaeistro"
-            rel="no follow"
+            rel="nofollow"
             className="nolink"
             target="_blank"
           >

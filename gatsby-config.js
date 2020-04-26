@@ -17,15 +17,15 @@ module.exports = {
         menuLinks: [
           // title = Link text
           // color = Animation background color on click
-          { name: `home`, title: `Home`, color: `#000`, link: `home` },
+          { name: `home`, title: `Home`, color: `#000`, link: `` },
           {
             name: `experience`,
             title: `Experience`,
             color: `#3a3d98`,
-            link: `experience`,
+            link: ``,
           },
-          { name: `skills`, title: `Skills`, color: `#d52d43`, link: `skills` },
-          { name: `aboutMe`, title: `About Me`, color: `#fff`, link: `about` },
+          { name: `skills`, title: `Skills`, color: `#d52d43`, link: `` },
+          { name: `aboutMe`, title: `About Me`, color: `#fff`, link: `` },
         ],
         email: `marander@protonmail.com`,
         social: {
@@ -88,7 +88,7 @@ module.exports = {
         // This object is used for configuration specific to this plugin
         pluginConfig: {
           // Puts tracking script in the head instead of the body
-          head: false,
+          head: true,
           // Setting this parameter is also optional
           respectDNT: true,
         },
