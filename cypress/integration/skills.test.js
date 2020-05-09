@@ -17,7 +17,7 @@ describe("Skills page", () => {
     cy.get("[data-test=skills]").within(() => {
       cy.root()
         .find(">li")
-        .should($li => {
+        .should(($li) => {
           expect(
             $li.length,
             `more that ${itemsLength} items`
@@ -25,11 +25,8 @@ describe("Skills page", () => {
         })
 
       cy.scrollTo(0, 210)
-      checkItems.forEach(item => {
-        cy.root()
-          .get("li")
-          .eq(item)
-          .should("be.visible")
+      checkItems.forEach((item) => {
+        cy.root().get("li").eq(item).should("be.visible")
       })
     })
   })
@@ -41,16 +38,14 @@ describe("Skills page", () => {
         .should("contain", "React")
         .and("contain", "React Native")
         .and("contain", "Gatsby")
-        .and("contain", "Google Maps")
-        .and("contain", "CakePHP")
-        .and("contain", "SVN")
+        .and("contain", "Redux")
     })
   })
 
   it("should the skill logos render a spacer div", () => {
     cy.get("[data-test=skills]").within(() => {
       cy.scrollTo(0, 210)
-      checkItems.forEach(item => {
+      checkItems.forEach((item) => {
         cy.root()
           .get("li")
           .eq(item)
@@ -64,7 +59,7 @@ describe("Skills page", () => {
   it("should the skill logos render sizes", () => {
     cy.get("[data-test=skills]").within(() => {
       cy.scrollTo(0, 210)
-      checkItems.forEach(item => {
+      checkItems.forEach((item) => {
         cy.root()
           .get("li")
           .eq(item)
@@ -77,14 +72,14 @@ describe("Skills page", () => {
 
   it("should the skill logos render correct srcset", () => {
     cy.scrollTo(0, 210)
-    checkItems.forEach(item => {
+    checkItems.forEach((item) => {
       cy.root()
         .get("li")
         .eq(item)
         .find(`picture > source`)
         .should(`have.attr`, `srcset`)
-        .and(srcset => {
-          srcset.split(/\s*,\s*/).forEach(part => {
+        .and((srcset) => {
+          srcset.split(/\s*,\s*/).forEach((part) => {
             expect(part).to.contain(`/static`)
             expect(part).to.match(/\d{2,}w/)
           })

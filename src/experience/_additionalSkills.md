@@ -14,6 +14,6 @@ skills:
     { title: "Socket.io", image: ../images/skills/socket-io.png },
   ]
 images: []
-dateFrom: "2019-09-01"
-dateTo: "2019-09-01"
+dateFrom: "2019-09-04"
+dateTo: "2019-10-01"
 ---

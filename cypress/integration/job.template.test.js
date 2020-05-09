@@ -28,7 +28,7 @@ describe("Vlooping experience page", () => {
 
   it("should navigate between next slides", () => {
     // Next button
-    h3Titles.forEach(title => {
+    h3Titles.forEach((title) => {
       cy.get("[data-test=slideshow")
         .find("[aria-hidden=true]")
         .should("be.visible")
@@ -44,7 +44,7 @@ describe("Vlooping experience page", () => {
     h3Titles.push(h3Titles.shift())
     console.log("h3Titles", h3Titles)
     // Previous button
-    h3Titles.reverse().forEach(title => {
+    h3Titles.reverse().forEach((title) => {
       cy.get("[data-test=slideshow")
         .find("[aria-hidden=true]")
         .should("be.visible")
@@ -57,14 +57,8 @@ describe("Vlooping experience page", () => {
   })
 
   it("should have title content and skills content", () => {
-    cy.get("[data-test=content]")
-      .find("h1")
-      .should("exist")
-    cy.get("[data-test=content]")
-      .find("h3")
-      .should("exist")
-    cy.get("main")
-      .find("header")
-      .contains("Tools used")
+    cy.get("[data-test=content]").find("h1").should("exist")
+    cy.get("[data-test=content]").find("h3").should("exist")
+    cy.get("main").find("header").contains("Tools used")
   })
 })

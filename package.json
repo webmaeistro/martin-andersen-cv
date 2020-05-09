@@ -16,8 +16,9 @@
   },
   "dependencies": {
     "gatsby": "^2.20.36",
-    "gatsby-cli": "^2.11.22",
+    "gatsby-cli": "^2.12.7",
     "gatsby-plugin-google-gtag": "^2.0.3",
+    "gatsby-plugin-preconnect": "^1.1.18",
     "gatsby-theme-banshorian": "^1.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

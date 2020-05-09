@@ -13,13 +13,13 @@ describe("Experience page", () => {
   it("should show a list of jobs", () => {
     cy.get("[data-test=jobs]")
       .find(">div")
-      .should($div => {
+      .should(($div) => {
         expect($div.length, "more that 1 item").to.be.greaterThan(1)
       })
 
     cy.get("[data-test=jobs]")
       .find(">div a")
-      .each($el => {
+      .each(($el) => {
         console.log($el.attr("href"))
         expect($el.attr("href")).to.match(/^\/experience\//)
       })
@@ -29,7 +29,7 @@ describe("Experience page", () => {
     cy.get("[data-test=jobs]")
       .find(">div")
       .filter("[data-year]")
-      .each($el => {
+      .each(($el) => {
         assert.isNumber(
           parseInt($el.attr("data-year"), 10),
           "data-year is a number"
@@ -39,12 +39,12 @@ describe("Experience page", () => {
 
   it("should display all jobs in small, medium and big screen", () => {
     const sizes = [554, 762, 1000]
-    sizes.forEach(width => {
+    sizes.forEach((width) => {
       cy.viewport(width, 720)
 
       cy.get("[data-test=jobs]")
         .find(">div a")
-        .each($el => {
+        .each(($el) => {
           cy.wrap($el).should("be.visible")
         })
     })
