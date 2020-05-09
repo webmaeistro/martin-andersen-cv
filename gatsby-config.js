@@ -40,16 +40,16 @@ module.exports = {
           availableToHire: true,
           dotColors: ["#0e3e1e", "#6CC551"],
           h1Text: `Hi!, I'm Martin Andersen`,
-          h2Text: `I'm a DevOps developer based out of Horten, Norway, who loves to make threejs + p5js WEBGL 3D animations. I have
+          h2Text: `I'm a fullStack developer + designer "unicorn" based out of Horten, Norway, who loves to make threejs + p5js WEBGL 3D animations. And Blazing fast websites. I have
               worked as a software developer since 2011.`,
           typewriter: [
-            `Coding is my passion 😎`,
+            `Designing and creative coding is my passion 😎`,
             `I'm a 🍕 lover`,
             `I'm a fast learner and always interested in learning new technologies 🤓`,
             `I think one of my values is the <strong>ability to find solutions to problems<strong>`,
             `I like to share what I know 👨‍🏫`,
             `In my non-coding hours, I'm a electro IoT nerd and a family man.`,
-            `I also do design and UX work <span style='color: #27ae60;'>using Figma.com</span>`,
+            `I do mosty my design and UX work <span style='color: #27ae60;'>using Figma.com</span>`,
           ],
         },
         // Color for menu background
@@ -83,7 +83,7 @@ module.exports = {
           anonymize_ip: true,
           cookie_expires: 0,
           send_page_view: true,
-          cookie_name: `martin-andersen-cv.*.*`,
+          cookie_name: `martin-andersen*.*.*`,
         },
         // This object is used for configuration specific to this plugin
         pluginConfig: {

@@ -1,8 +1,8 @@
 ---
-title: "Småviltguiden"
-company: "Småviltguiden"
+title: ""
+company: "Bjerk"
 logo: ../images/companies/smaaviltguiden/smaaviltguiden_omslag.jpg
-jobTitle: "artskunnskap for jegere"
+jobTitle: "JavaScript Developer"
 skills:
   [
     { title: "HTML 5", image: ../images/skills/html5.png },
@@ -24,8 +24,8 @@ skills:
 images:
   [
     {
-      title: "Artskunnskap",
-      description: "Forfatter: Bjørn Olav Tveit",
+      title: "Google Cloude Platformn",
+      description: "When working at Bjerk I learned buisniess infrastructure as code and howto solve day to day tasks for companies with GCP and serverless cloud approache",
       layout: "4",
       files:
         [
@@ -39,8 +39,8 @@ images:
         ],
     },
     {
-      title: "jaktsesong",
-      description: "viktig å holde",
+      title: "G-suite",
+      description: "Secure corporate infrastructure by Google",
       layout: "3",
       files:
         [
@@ -57,8 +57,8 @@ images:
         ],
     },
     {
-      title: "Øivind Egeland trylle fram forsideillustrasjonen!",
-      description: "Øivind Egeland fra Sandnes regnes som en av Skandinavias fremste naturkunstnere.",
+      title: "React and JavaScript",
+      description: "Interesting learning experience with lots of customer interactions and Atlassian Jira Service Desk setup",
       layout: "1",
       files:
         [
@@ -70,8 +70,8 @@ images:
         ],
     },
     {
-      title: "Jegerprøven",
-      description: "Er obligatorisk for å anskaffe seg jaktvåpen.",
+      title: "Application Development",
+      description: "In every company there is tech heavy and non-tech employies, pulumi lets them all work towards development",
       layout: "1",
       files:
         [
@@ -83,53 +83,13 @@ images:
         ],
     },
   ]
-dateFrom: "2013"
-dateTo: "2014"
+dateFrom: "01-2019"
+dateTo: "06-2019"
 ---
 
-## Hvordan skille jaktbart fra fredet vilt
-
-Det er det viktigste en jeger må kunne. Samtidig er det kanskje også det vanskeligste, noe ikke minst erfaringer fra jegerprøvene viser. Denne boka forteller på en enkel måte hvordan du i typiske jaktsituasjoner ser forskjell på de artene du kan felle - og hvilke du må la gå. Samtidig får du mye nyttig og spennende informasjon om viltet. En god jeger kjenner sitt bytte!
-
-Boka viser artene i riktige drakter i forhold til jakttidene, i like positurer så de lett kan sammenliknes, med piler til de viktigste kjennetegnene, og med symboler som viser hvilke som kan jaktes og hvilke som er fredet:  
-<<<<<<< HEAD
-=======
-![Vadefugler 3](./../images/companies/smaaviltguiden.png)
-
-> > > > > > > 456d8fc468f8b92d4b5df9fddc912d423f6d645f
-
-Småviltguiden er basert på den nye Jaktforskriften for 2017-2022, med nye jakttider og oppdatert med hvilke arter som ikke lenger er jaktbare - foruten en ny jaktbar art!
-
-De livaktige illustrasjonene er malt av Øivind Egeland, en av Skandinavias mest begavede naturkunstnere. Bjørn Olav Tveit er blant våre ledende eksperter på artskunnskap og feltkjennetegn.
-
-Sammen har de laget en pedagogisk og lettfattelig guide til hvordan skille alle jaktbare arter fra sine fredete forvekslingsarter, nyttig enten du skal ut på jakt eller er på vei til å ta jegerprøven.
-
-**Tittel: Småviltguiden - artskunnskap for jegere**  
-**Tekst:** Bjørn Olav Tveit  
-**Illustrasjoner:** Øivind Egeland  
-**Format:** 245 x 225 mm  
-**Omfang:** 136 sider  
-**ISBN:** 978-82-998062-7-5  
-**Pris:** kr 398,-  
-**Utgitt:** Høsten 2017
-
-**[Se det artige innslaget om Småviltguiden på TV2s _God morgen, Norge_!](http://www.tv2.no/v/1236888/)**<
-
-<<<<<<< HEAD
-**Hylles av Jegerforbundet!**  
-Norges Jeger- og Fiskerforbunds medlemsblad **Jakt & Fiske** omtaler Småviltguiden som en «særdeles grundig guide for småviltjegeren», med «detaljerte og naturtro tegninger og akvareller», der «også erfarne småviltjegere vil kunne lære noe nytt»!  
-Les hele anmeldelsen på nett [![her!]](https://www.njff.no/tema/jaktogfiske/Sider/Grundig-guide-for-smaviltjegeren.aspx)
-=======
-[![sommerfugler](./../images/companies/smaaviltguiden.png)](http://www.tv2.no/v/1236888/)
-
-**Hylles av Jegerforbundet!**  
-Norges Jeger- og Fiskerforbunds medlemsblad **Jakt & Fiske** omtaler Småviltguiden som en «særdeles grundig guide for småviltjegeren», med «detaljerte og naturtro tegninger og akvareller», der «også erfarne småviltjegere vil kunne lære noe nytt»!  
-[Les hele anmeldelsen på nett her!
-![sommersugler](./../images/companies/smaaviltguiden.png)](https://www.njff.no/tema/jaktogfiske/Sider/Grundig-guide-for-smaviltjegeren.aspx)
-
-**Se Øivind Egeland trylle fram forsideillustrasjonen!**'
-
-![sommerfugler ornforlag](./../images/companies/smaaviltguiden.png)  
-Øivind Egeland fra Sandnes regnes som en av Skandinavias fremste naturkunstnere.
-
-> > > > > > > 456d8fc468f8b92d4b5df9fddc912d423f6d645f
+Atlassian Expert.
+Jira cloud Service Desk automation and setup Professional
+G-suite Deployment Specialist
+GCP Reseller Super Admin
+Customers Services and Support
+Buisness development
